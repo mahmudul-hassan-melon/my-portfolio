@@ -16,14 +16,17 @@ body {
     padding: 60px 0;
     margin: auto;
     clear: both;
+    
   }
   .half-width {
     max-width: 50%;
-    float: left;
+    display: inline-block;
+  
   }
   .half-width img{
     height: 300px;
     width: 300px;
+    float: left;
   }
   .service-item {
     max-width: 25%;
